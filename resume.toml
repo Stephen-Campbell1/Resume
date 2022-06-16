@@ -1,0 +1,132 @@
+# This is a TOML document
+[Contact]
+name = "Stephen Campbell"
+email = "kingiskey@gmail.com"
+
+[Education.Bachelors]
+type = "Bachelor of Science in Electrical Engineering"
+completed = "2022-05-10"
+gpa = "GPA: 3.99/4.0"
+school = "University of Texas at Dallas, Richardson, Texas"
+honors = "Academic Excellence Scholar, Dean's List 4 semesters"
+
+[ProfessionalExperience.ValidationEngineer]
+start = "2021-06-01"
+end = "2021-08-12"
+title = "Validation Engineer Intern"
+location = "Dallas, TX"
+employer = "Texas Instruments"
+takeaways = [
+  "Designed a python infrastructure automation saving teammates days per use",
+  "Rapidly learned new technologies and workflows enhancing employer flexibility",
+  "Collaborated in a cross-functional environment efficiently fulfilling product requirements"
+] 
+# more description
+# In this internship experience, I designed an abstraction for video test equipment. This video  
+# test equipment provides a test signal to measure worst case power and latency of a display device. The manufacturers of these
+# video test systems provide their own custom methods of control. I made it possible for teammates to avoid the  
+# confusing, time-consuming amalgam of proprietary protocols which fueled countless bugs and miscommunications in favor
+# of a unified interface which made using these devices as simple as plugging it in.
+ 
+
+
+[ProfessionalExperience.OutdoorTripLeader]
+start = "2019-09-10"
+end = "2020-05-10"
+title = "Outdoor Trip Leader"
+location = "Richardson, TX"
+employer = "University Recreation"
+takeaways = [
+  "Led 12+ students on off-campus excursions to foster an appreciation of the outdoors",
+  "Adapted to changing needs by taking on new responsibilities ensuring positive participant experience",
+  "Educated participants in outdoor ethics to encourage habits of environmental sustainability"
+] 
+
+# [ProfessionalExperience.Host]
+# start = "2017-08-20"
+# end = "2018-06-01"
+# title = "Host"
+# location = "Amarillo, TX"
+# employer = "Teddy Jack's Armadillo Grill"
+# takeaways = [
+#   "Professionally communicated with coworkers to decrease customer wait times",
+#   "Consistently assisted in team-based goals to motivate a collaborative team mentality",
+#   "Solved complex problems in high stress situations that resulted in greater efficiency for the restaurant "
+# ] 
+
+[Project.Capstone]
+start = "2021-08-22"
+end = "2022-05-15"
+title = "TI Wi-SUN FAN Webserver"
+takeaways = [
+  "Launched a real-time full stack application to visualize and configure IoT sensors in a mesh network",
+  "Spearheaded design of React component system allowing facilitated creation of user friendly applications",
+  "Developed PCB attachment for TI WiSUN evaluation module exceeding design goals",
+]
+
+[[Project.Capstone.TechnologiesUsed]]
+title = "React"
+link = "https://reactjs.org/"
+
+[[Project.Capstone.TechnologiesUsed]]
+title = "D3.js"
+link = "https://d3js.org/"
+
+[[Project.Capstone.TechnologiesUsed]]
+title = "KiCAD"
+link = "https://www.kicad.org/"
+
+[[Project.Capstone.TechnologiesUsed]]
+title = "Fusion 360"
+link = "https://www.autodesk.com/products/fusion-360/overview"
+
+
+
+
+[Project.RobotArmDesignProject]
+start = "2019-01-21"
+end = "2019-05-07"
+title = "Robot Arm Design Project"
+takeaways = [
+  "Modeled and tested several iterations of an end effector in SolidWorks gaining insight into the design process",
+  "Simulated forward kinematics of robot arm resulting in simplified set of project constraints ",
+  "Programmed Arduino microcontroller to perform nuanced movements from sensor signal"
+]
+
+[[Project.RobotArmDesignProject.TechnologiesUsed]]
+title = "Arduino"
+link = "https://www.arduino.cc/"
+
+[[Project.RobotArmDesignProject.TechnologiesUsed]]
+title = "MATLAB"
+link = "https://www.mathworks.com/products/matlab.html"
+
+[[Project.RobotArmDesignProject.TechnologiesUsed]]
+title = "SolidWorks"
+link = "https://www.solidworks.com/"
+
+[Project.MathematicsEditorFrontendPrototype]
+start = "2020-05-21"
+end = "2020-08-20"
+title = "Mathematics Editor Frontend Prototype"
+takeaways = [
+  "Implemented and adapted several algorithms from Knuth's The TeXbook with OpenType fonts",
+  "Designed and built main application logic consisting of over 10k SLOC",
+  "Utilized and gained a working knowledge of various Linux Command-Line utilities i.e. git, vi, etc."
+]
+
+[[Project.MathematicsEditorFrontendPrototype.TechnologiesUsed]]
+title = "Javascript"
+link = "https://en.wikipedia.org/wiki/ECMAScript"
+
+[[Project.MathematicsEditorFrontendPrototype.TechnologiesUsed]]
+title = "Parcel"
+link = "https://parceljs.org/"
+
+
+[[Skills]]
+name="C++"
+[[Skills]]
+name="Javascript"
+[[Skills]]
+name="Python"
