@@ -12,6 +12,18 @@ gpa = "GPA: 3.99/4.0"
 school = "University of Texas at Dallas, Richardson, Texas"
 honors = "Academic Excellence Scholar, Dean's List 4 semesters"
 
+[ProfessionalExperience.HaloSoftwareEngineer]
+start = "2022-07-11"
+end = "2023-04-26"
+title = "Software Development Engineer"
+location = "Arlington, VA"
+employer = "Amazon"
+takeaways = [
+  "Dove deep into mobile app development with advanced usage of Typescript (React Native),  Kotlin (Android), Swift (iOS)"
+  "Designed and reviewed with technial leadership, a software system that orchestrates simultaneous music & video streams",
+  "Contributed to team technical learning series, striving to reduce team's tribal knowledge",
+] 
+
 [ProfessionalExperience.ValidationEngineer]
 start = "2021-06-01"
 end = "2021-08-12"
