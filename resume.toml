@@ -19,9 +19,9 @@ title = "Software Development Engineer"
 location = "Arlington, VA"
 employer = "Amazon"
 takeaways = [
-  "Dove deep into mobile app development with advanced usage of Typescript (React Native),  Kotlin (Android), Swift (iOS)",
-  "Designed and reviewed with technial leadership, a software system that orchestrates simultaneous music & video streams",
-  "Contributed to team technical learning series, striving to reduce team's tribal knowledge",
+  "Dove deep into mobile app development by building out mobile playback infrastructure with Kotlin, Swift, and Typescript",
+  "Owned design of a software system that orchestrates simultaneous music & video streams",
+  "Contributed to team technical learning series to reduce tribal knowledge"
 ] 
 
 [ProfessionalExperience.ValidationEngineer]
